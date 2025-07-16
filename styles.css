@@ -20,6 +20,7 @@ body {
     width: 400px;
     box-sizing: border-box;
     gap: 15px;
+    box-shadow: 3px 6px 6px hsl(0deg 0% 0% / 0.41);
 }
 
 
@@ -53,7 +54,7 @@ body {
     align-items:center;
 }
 
-#button-row{
+.button-row{
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -67,7 +68,7 @@ body {
     align-items: center;
 }
 
-.logo{
+#logo{
     padding: 0px;
     margin: 0px;
     font-size: 30px;
@@ -104,4 +105,8 @@ button:active{
 #del-btn{
     background-color: #e17a7a;
     box-shadow: 0.75px 1.5px 1.5px hsl(0deg 0% 0% / 0.41);
+}
+
+button:hover{
+    transform:translateY(-2px)
 }
